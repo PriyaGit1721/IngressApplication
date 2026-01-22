@@ -7,7 +7,7 @@ spec:
   selector:
     app: httpd
   ports:
-    - protocol: httpd
+    - protocol: TCP
       port: 80
       targetPort: 80
 
